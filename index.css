@@ -199,22 +199,14 @@ img {
   transform: translateX(0.9rem);
   color: rgb(224, 224, 224);
 }
-.project-image {
-  opacity: 0.9;
-}
-img:hover {
-  opacity: 1;
-}
-.project-name:hover ~ img {
-  opacity: 1;
-}
+
 img:hover ~ .project-name .code {
-  padding: 7px;
+  padding: 8px;
   color: #a6b10c;
 }
 .project-name:hover > .code {
   padding: 8px;
-  color: #bfcc0f;
+  color: #a6b10c;
 }
 img:hover ~ .project-name {
   color: rgb(255, 255, 255);
@@ -244,7 +236,7 @@ img:hover ~ .project-name {
   z-index: 2;
 }
 .div-img {
-  padding-left: 20rem;
+  padding-left: 15rem;
 }
 @keyframes typing {
   100% {
