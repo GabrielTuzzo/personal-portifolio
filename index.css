@@ -52,7 +52,8 @@ li {
   height: 100%;
 }
 .header-a:hover {
-  letter-spacing: 0.2px;
+  transform: translateY(3px);
+  text-decoration: underline;
 }
 #header-nav {
   display: flex;
@@ -63,10 +64,10 @@ li {
 }
 #head {
   top: 0;
-  background-color: rgba(29, 29, 29, 0.925);
+  background-color: rgb(27, 27, 27);
   width: 100%;
   position: fixed;
-  box-shadow: 1px 1px 1px 1px #000000c7;
+  box-shadow: 2px 2px 2px 2px rgb(8, 8, 8);
   z-index: 2;
 }
 .header-ul {
@@ -83,10 +84,9 @@ li {
 .img-div {
   width: 100%;
   height: 100vh;
-  background-color: #000;
-  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  background-color: rgb(20, 20, 20);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -94,6 +94,7 @@ li {
   color: rgb(233, 233, 233);
   letter-spacing: 0.2rem;
   font-size: 5rem;
+  position: relative;
 }
 .subtitle {
   color: rgba(230, 230, 230, 0.863);
@@ -161,6 +162,13 @@ img {
   color: rgb(170, 41, 41);
   padding: 3px;
 }
+.project-1 .project-name {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.project-name:hover {
+  letter-spacing: 0.2px;
+}
 .project-name {
   color: rgb(224, 224, 224);
   text-align: center;
@@ -171,6 +179,7 @@ img {
   font-size: 2rem;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
+  transition: all .3s;
 }
 .project-8 .project-name{
   padding-left: 1%;
@@ -179,7 +188,6 @@ img {
 .project-title {
   text-decoration: none;
 }
-
 .project-image {
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
@@ -191,20 +199,60 @@ img {
   transform: translateX(0.9rem);
   color: rgb(224, 224, 224);
 }
-
-@media (max-width: 500px) {
-  .btns {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-  }
-  .btn-1,
-  .btn-2 {
-    width: 240px;
+.project-image {
+  opacity: 0.9;
+}
+img:hover {
+  opacity: 1;
+}
+.project-name:hover ~ img {
+  opacity: 1;
+}
+img:hover ~ .project-name .code {
+  padding: 7px;
+  color: #a6b10c;
+}
+.project-name:hover > .code {
+  padding: 8px;
+  color: #bfcc0f;
+}
+img:hover ~ .project-name {
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.3px;
+}
+.code {
+  transition: all .2s;
+}
+.project-6 .project-name {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.portfolio-title:after {
+  content: '';
+  position: absolute;
+  height: 110%;
+  width: 4%;
+  margin-bottom: 20px;
+  transform: rotate(35deg);
+  left: 0;
+  animation: typing 2s infinite;
+  background: #141414;
+  z-index: 0;
+}
+.img-responsive {
+  width: 100%;
+  z-index: 2;
+}
+.div-img {
+  padding-left: 20rem;
+}
+@keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -35px 0 20px;
   }
 }
+
 @media  screen and (max-width: 1330px) {
   .section-projects {
     padding-right: 1%;
@@ -219,5 +267,34 @@ img {
   .section-projects {
     padding-right: 2%;
     padding-left: 2%;
+  }
+  .project-4 .project-name {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .project-2 .project-name {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+@media  screen and (max-width: 713px) {
+  .section-projects {
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+.project-name {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
+}
+@media  screen and (max-width: 750px) {
+  .project-2 .project-name {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .project-1 .project-name {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
