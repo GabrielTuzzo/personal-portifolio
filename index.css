@@ -68,7 +68,7 @@ li {
   width: 100%;
   position: fixed;
   box-shadow: 2px 2px 2px 2px rgb(8, 8, 8);
-  z-index: 2;
+  z-index: 3;
 }
 .header-ul {
   margin: 2rem 0;
@@ -96,18 +96,20 @@ li {
   font-size: 5rem;
   position: relative;
 }
-.subtitle {
-  color: rgba(230, 230, 230, 0.863);
-  font-size: 2.6rem;
-  font-style: italic;
-  letter-spacing: 0.1rem;
-  cursor: pointer;
-  transition: 0.2s;
+.subtitle-1 {
+  color: rgb(211, 211, 211);
+  font-size: 2.5rem;
   text-decoration: none;
 }
-.subtitle:hover {
-  text-decoration: underline;
-  letter-spacing: 0.2rem;
+.subtitle-2 {
+  color: rgba(252, 252, 252, 0.89);
+  font-size: 2.2rem;
+  margin-top: 20px;
+  max-width: 600px;
+}
+.project-4 .project-name {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .projects h1 {
   border-bottom: 1px solid #dadada;
@@ -134,19 +136,54 @@ img {
   padding-bottom: 3.5rem;
   margin-top: 6rem;
 }
-.btn a {
+.btn-footer a, 
+.btn a,
+.btn-2 a {
   text-decoration: none;
-  color: rgb(224, 224, 224);
+  color: rgb(231, 231, 231);
   font-size: 1.7rem;
   transition: 0.2s;
 }
-
 .btn a i {
+  padding-left: 10px;
+  margin-left: 5px;
+}
+.btn-2 a i {
+  padding-left: 13px;
+}
+.name {
+  color: rgb(158, 29, 29);
+}
+.btn-2 {
+  background: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 1.1rem 0.3rem 1.1rem 1.6rem;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.2s;
+  width: 205px;
+  max-height: 50px;
+  margin-top: 20px;
+}
+.btn-footer a i {
   color: rgb(170, 41, 41);
   transform: translateX(0.5rem);
   transition: 0.2s;
 }
+.btn-2 a {
+  color: rgb(228, 228, 228);
+}
 .btn {
+  padding: 1.2rem 2rem;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.2s;
+  width: 180px;
+  max-height: 50px;
+  background-color: rgb(158, 29, 29);
+  margin-top: 20px;
+}
+.btn-footer {
   background-color: rgb(37, 37, 37);
   padding: 1.2rem 2rem;
   border-radius: 3px;
@@ -192,20 +229,32 @@ img {
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
 }
-.btn:hover {
+.btn-footer:hover {
   background-color: rgb(170, 41, 41);
 }
-.btn:hover > a i {
+.btn-footer:hover > a i {
   transform: translateX(0.9rem);
   color: rgb(224, 224, 224);
 }
-
+.btn:hover > a i {
+  transform: translateY(0.7rem);
+}
+.btn-2:hover > a i {
+  transform: translateY(0.7rem);
+}
+.btn:hover {
+  background-color: rgb(196, 36, 36);
+}
+.btn a i,
+.btn-2 a i {
+  transition: all .2s;
+}
 img:hover ~ .project-name .code {
   padding: 8px;
   color: #a6b10c;
 }
 .project-name:hover > .code {
-  padding: 8px;
+  padding: 6px;
   color: #a6b10c;
 }
 img:hover ~ .project-name {
@@ -223,13 +272,16 @@ img:hover ~ .project-name {
   content: '';
   position: absolute;
   height: 110%;
-  width: 4%;
+  width: 100%;
   margin-bottom: 20px;
-  transform: rotate(35deg);
   left: 0;
-  animation: typing 2s infinite;
+  animation: typing 4.5s forwards;
   background: #141414;
   z-index: 0;
+}
+.btns {
+  display: flex;
+  gap: 30px;
 }
 .img-responsive {
   width: 100%;
@@ -237,6 +289,7 @@ img:hover ~ .project-name {
 }
 .div-img {
   padding-left: 15rem;
+  z-index: 2;
 }
 @keyframes typing {
   100% {
@@ -261,8 +314,8 @@ img:hover ~ .project-name {
     padding-left: 2%;
   }
   .project-4 .project-name {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 13%;
+    padding-right: 13%;
   }
   .project-2 .project-name {
     padding-left: 20%;
