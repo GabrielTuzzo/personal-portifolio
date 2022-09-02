@@ -37,7 +37,9 @@ html {
 body {
   font-family: "poppins", Arial, Helvetica, sans-serif;
 }
-
+html, body {
+  overflow-x: hidden;
+}
 li {
   list-style: none;
 }
@@ -93,8 +95,11 @@ li {
 .img-div h1 {
   color: rgb(233, 233, 233);
   letter-spacing: 0.2rem;
-  font-size: 5rem;
+  font-size: 4.5rem;
   position: relative;
+}
+.name {
+  font-size: 5rem;
 }
 .subtitle-1 {
   color: rgb(211, 211, 211);
@@ -239,11 +244,18 @@ img {
 .btn:hover > a i {
   transform: translateY(0.7rem);
 }
+.btn-2:hover > a {
+  color: #141414;
+}
 .btn-2:hover > a i {
   transform: translateY(0.7rem);
+  color: #141414;
+}
+.btn-2:hover {
+  background-color: #dadada;
 }
 .btn:hover {
-  background-color: rgb(196, 36, 36);
+  background-color: rgb(202, 0, 0);
 }
 .btn a i,
 .btn-2 a i {
@@ -297,7 +309,41 @@ img:hover ~ .project-name {
     margin: 0 -35px 0 20px;
   }
 }
-
+@media  screen and (max-width: 1420px) {
+  .div-img {
+    padding-left: 5rem;
+    z-index: 2;
+  }
+}
+@media  screen and (max-width: 1300px) {
+  .div-img {
+    padding-left: 0rem;
+    z-index: 2;
+  }
+}
+@media  screen and (max-width: 1170px) {
+  .title {
+   padding-left: 4%;
+  }
+  .portfolio-title {
+    line-height: 6rem;
+    padding-bottom: 0rem;
+  }
+}
+@media  screen and (max-width: 1050px) {
+  .title {
+    flex: 0 1;
+  }
+}
+@media  screen and (max-width: 910px) {
+  .img-div {
+    flex-direction: column;
+    padding-top: 20rem;
+  }
+  .title {
+    padding-bottom: 2rem;
+  }
+}
 @media  screen and (max-width: 1330px) {
   .section-projects {
     padding-right: 1%;
@@ -324,8 +370,8 @@ img:hover ~ .project-name {
 }
 @media  screen and (max-width: 713px) {
   .section-projects {
-    padding-right: 2%;
-    padding-left: 2%;
+    padding-right: 4%;
+    padding-left: 4%;
   }
 .project-name {
     padding-left: 12%;
@@ -341,5 +387,197 @@ img:hover ~ .project-name {
   .project-1 .project-name {
     padding-left: 5%;
     padding-right: 5%;
+  }
+}
+@media  screen and (max-width: 768px) {
+  .img-div h1 {
+    font-size: 4rem;
+  }
+  .name {
+    font-size: 4.5rem;
+  }
+  #projects-example {
+    font-size: 3rem;
+    max-width: 480px;
+  }
+  .subtitle-1 {
+    font-size: 2.2rem;
+  }
+  .subtitle-2 {
+    font-size: 1.9rem;
+  }
+  .header-a {
+    font-size: 2rem;
+  }
+  #header-nav {
+    margin-right: 5rem;
+  }
+  .portfolio-title {
+    line-height: 4.7rem;
+  }
+}
+@media screen and (max-width: 630px) {
+  .title {
+    padding-left: 4%;
+    padding-right: 4%;
+   }
+}
+@media  screen and (max-width: 600px) {
+  .img-div h1 {
+    font-size: 3.4rem;
+  }
+  .name {
+    font-size: 4rem;
+  }
+  .subtitle-1 {
+    font-size: 2rem;
+  }
+  .subtitle-2 {
+    font-size: 1.7rem;
+  }
+  .header-a {
+    font-size: 1.8rem;
+  }
+  #header-nav {
+    margin-right: 4rem;
+  }
+  #projects-example {
+    font-size: 2.7rem;
+    max-width: 430px;
+  }
+  .projects h1 {
+    padding-top: 4rem;
+  }
+  .section-projects {
+    margin-top: 4rem;
+  }
+}
+@media  screen and (max-width: 500px) {
+  .img-div h1 {
+    font-size: 3rem;
+  }
+  .name {
+    font-size: 3.5rem;
+  }
+  .subtitle-1 {
+    font-size: 1.8rem;
+  }
+  .subtitle-2 {
+    font-size: 1.6rem;
+  }
+  .header-a {
+    font-size: 1.7rem;
+  }
+  #header-nav {
+    margin-right: 2rem;
+  }
+  .btn a,
+  .btn-2 a {
+    font-size: 1.5rem;
+  }
+  .btn {
+    width: 170px;
+  }
+  .btn-2 {
+    width: 180px;
+  }
+  .btn-2 a i {
+    padding-left: 10px;
+  }
+  .portfolio-title {
+    line-height: 4.5rem;
+  }
+  #projects-example {
+    font-size: 2.4rem;
+    max-width: 390px;
+  }
+}
+@media  screen and (max-width: 441px) {
+  .img-div h1 {
+    font-size: 2.5rem;
+  }
+  .name {
+    font-size: 3rem;
+  }
+  .subtitle-1 {
+    font-size: 1.65rem;
+  }
+  .subtitle-2 {
+    font-size: 1.4rem;
+  }
+  .header-a {
+    font-size: 1.6rem;
+  }
+  #header-nav {
+    margin-right: 2rem;
+  }
+  .btn a,
+  .btn-2 a {
+    font-size: 1.5rem;
+  }
+  .btn {
+    width: 170px;
+  }
+  .btn-2 {
+    width: 180px;
+  }
+  .btn-2 a i {
+    padding-left: 10px;
+  }
+  .portfolio-title {
+    line-height: 4.3rem;
+  }
+  .btns {
+    gap: 20px;
+  }
+  #projects-example {
+    font-size: 2.2rem;
+    max-width: 360px;
+  }
+}
+@media  screen and (max-width: 420px) {
+  .btns {
+    gap: 15px;
+  }
+}
+@media  screen and (max-width: 410px) {
+  .btns {
+    gap: 12px;
+  }
+  .btn {
+    width: 143px;
+    padding: 1.2rem 1.3rem;
+  }
+  .btn a i {
+    padding-left: 4px;
+  }
+  .btn-2 a i {
+    padding-left: 9px;
+  }
+  .btn-2 {
+      padding: 1.1rem 0.3rem 1.1rem 1rem;
+      transition: 0.2s;
+      width: 170px;
+  }
+}
+@media  screen and (max-width: 383px) {
+  .portfolio-title {
+    line-height: 3.5rem;
+    padding-bottom: 0.3rem;
+  }
+  #projects-example {
+    font-size: 1.9rem;
+    max-width: 300px;
+  }
+}
+@media  screen and (max-height: 740px) {
+  .img-div {
+    flex-direction: column;
+    padding-top: 10rem;
+  }
+}
+@media  screen and (max-height: 700px) {
+  .img-div {
+    padding-top: 15rem;
   }
 }
