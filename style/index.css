@@ -11,7 +11,7 @@
   font-family: "poppins", Arial, Helvetica, sans-serif;
 }
 ::selection {
-  background-color: #314fa3;
+  background-color: #728edb;
 }
 html {
   scroll-behavior: smooth;
@@ -322,13 +322,63 @@ img:hover ~ .project-name {
 }
 .title-p {
   font-size: 3rem;
+  position: relative;
 }
 .title-footer {
   padding-top: 20px;
-  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  letter-spacing: 1.5px;
 }
-.title::after {
+.title-p::after {
   content: '';
+  position: absolute;
+  width: 230px;
+  height: 7px;
+  border-radius: 2px;
+  background-color: #a6b10c;
+  left: -2.7rem;
+  top: 5rem;
+  background: linear-gradient(180deg, #420000, #550000);
+}
+.content {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-top: 4rem;
+  max-width: 950px;
+  margin: 40px auto;
+}
+.content-1 {
+  position: relative;
+}
+.content-1:after {
+  content: '';
+  position: absolute;
+  height: 103%;
+  width: 6px;
+  border-radius: 2px;
+  background: linear-gradient(180deg, #420000, #550000);
+  left: -2.5%;
+  top: 0;
+}
+.p-3,
+.p-2,
+.p-4{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.p-1 {
+  padding-bottom: 15px;
+}
+.p-1,
+.p-2,
+.p-3,
+.p-4 {
+  border-bottom: 1px solid #000;
+}
+.p-5 {
+  padding-top: 15px;
 }
 @keyframes typing {
   100% {
