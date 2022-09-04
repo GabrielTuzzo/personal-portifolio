@@ -262,6 +262,15 @@
         transition: 0.2s;
         width: 170px;
     }
+    .section-projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 3.5rem;
+      max-width: 1300px;
+      margin: 0 auto;
+      padding-bottom: 3.5rem;
+      margin-top: 6rem;
+    }
   }
   @media  screen and (max-width: 383px) {
     .portfolio-title {
