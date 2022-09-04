@@ -357,10 +357,11 @@ img:hover ~ .project-name {
 }
 .content {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 400;
   padding-top: 4rem;
   max-width: 950px;
   margin: 40px auto;
+  font-family: "nunito", arial;
 }
 .content-1 {
   position: relative;
@@ -414,6 +415,32 @@ img:hover ~ .project-name {
 }
 .p-5 {
   padding-top: 15px;
+}
+.back-top {
+  font-size: 2rem;
+}
+.fa-arrow-up-from-bracket {
+  padding-left: 13px;
+}
+.back-top {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-decoration: none;
+  color: rgb(26, 26, 26);
+  letter-spacing: 1px;
+  transition: all .1s;
+}
+.back-top i {
+  font-size: 2.2rem;
+}
+.back-top:hover {
+  text-decoration: underline;
+  letter-spacing: 1.1px;
+}
+.final-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5rem;
 }
 @keyframes typing {
   100% {
