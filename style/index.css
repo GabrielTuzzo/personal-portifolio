@@ -320,12 +320,14 @@ img:hover ~ .project-name {
 .btn-3:hover {
   background: #c7c7c7;
 }
-.title-p {
+.title-p,
+.content-p {
   font-size: 3rem;
   position: relative;
 }
 .title-footer {
   padding-top: 20px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   font-weight: 600;
@@ -338,7 +340,18 @@ img:hover ~ .project-name {
   height: 7px;
   border-radius: 2px;
   background-color: #a6b10c;
-  left: -2.9rem;
+  left: -2.85rem;
+  top: 5rem;
+  background: linear-gradient(180deg, #420000, #550000);
+}
+.content-p::after {
+  content: '';
+  position: absolute;
+  width: 230px;
+  height: 7px;
+  border-radius: 2px;
+  background-color: #a6b10c;
+  left: -4rem;
   top: 5rem;
   background: linear-gradient(180deg, #420000, #550000);
 }
@@ -367,6 +380,28 @@ img:hover ~ .project-name {
 .p-4{
   padding-top: 15px;
   padding-bottom: 15px;
+}
+.contact-1, 
+.contact-2,
+.contact-3 {
+  font-size: 2rem;
+  padding-top: 1.3rem;
+  letter-spacing: 1px;
+}
+.content-contact {
+  max-width: 400px;
+  margin: 5rem auto;
+}
+.contact-2 i,
+.contact-3 i {
+  font-size: 2.35rem;
+  padding-left: 8.5px;
+}
+.contact-1 i {
+  padding-left: 8.5px;
+}
+.bold-title {
+  font-weight: 600;
 }
 .p-1 {
   padding-bottom: 15px;
