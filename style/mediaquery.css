@@ -28,6 +28,11 @@
       line-height: 6rem;
       padding-bottom: 0rem;
     }
+    .back-top i {
+      font-size: 2.2rem;
+      transition: all .2s;
+      padding-left: 1rem;
+    }
   }
   @media  screen and (max-width: 1060px) {
     .section-projects {
@@ -42,6 +47,31 @@
       padding-left: 20%;
       padding-right: 20%;
     }
+    .back-top {
+      font-size: 1.8rem;
+    }
+    .back-top i {
+      font-size: 2rem;
+      padding-left: 0.9rem;
+    }
+    .content {
+      font-size: 1.7rem;
+      max-width: 750px;
+    }
+    .title-p,
+    .content-p {
+      font-size: 2.5rem;
+    }
+    .content-p::after {
+      width: 170px;
+      left: -2.3rem;
+      top: 4.2rem;
+    }
+    .title-p::after {
+      width: 205px;
+      left: -2.85rem;
+      top: 4.4rem;
+    }
   }
   @media  screen and (max-width: 940px) {
     .img-div {
@@ -50,6 +80,137 @@
     }
     .title {
       padding-bottom: 2rem;
+    }
+    .back-top {
+      font-size: 1.7rem;
+    }
+    .back-top i {
+      font-size: 1.9rem;
+      padding-left: 0.8rem;
+    }
+    .final-footer {
+      padding-right: 4rem;
+    }
+  }
+  @media  screen and (max-width: 830px) {
+    .content {
+      font-size: 1.6rem;
+      max-width: 700px;
+    }
+  }
+  @media  screen and (max-width: 780px) {
+    .content {
+      max-width: 650px;
+    }
+    .content-1:after {
+      left: -3%;
+    }
+    .final-footer {
+      padding-right: 3.5rem;
+    }
+  }
+  @media  screen and (max-width: 720px) {
+    .content {
+      max-width: 600px;
+    }
+    .final-footer {
+      padding-right: 3rem;
+    }
+    .contact-1, 
+    .contact-2,
+    .contact-3 {
+      font-size: 1.8rem;
+      padding-top: 1.3rem;
+      letter-spacing: 1px;
+      padding-left: 5%;
+    }
+  }
+  @media  screen and (max-width: 670px) {
+    .content {
+      max-width: 540px;
+    }
+    .content-1:after {
+      left: -4%;
+    }
+  }
+  @media  screen and (max-width: 620px) {
+    .content {
+      max-width: 480px;
+    }
+    .content-1:after {
+      content: '';
+      position: absolute;
+      height: 103%;
+      width: 6px;
+      border-radius: 2px;
+      background: linear-gradient(180deg, #420000, #550000);
+      left: -4%;
+      top: -1%;
+    }
+  }
+  @media  screen and (max-width: 550px) {
+    .content {
+      font-size: 1.5rem;
+      max-width: 430px;
+    }
+    .content-1:after {
+      content: '';
+      position: absolute;
+      height: 103%;
+      width: 6px;
+      border-radius: 2px;
+      background: linear-gradient(180deg, #420000, #550000);
+      left: -5%;
+      top: -1%;
+    }
+  }
+  @media  screen and (max-width: 500px) {
+    .content {
+      font-size: 1.5rem;
+      max-width: 380px;
+      padding-top: 2rem;
+    }
+    .content-1:after {
+      display: none;
+    }
+    .contact-1, 
+    .contact-2,
+    .contact-3 {
+      font-size: 1.7rem;
+      letter-spacing: 0.8px;
+      padding-left: 6%;
+    }
+  }
+  @media  screen and (max-width: 430px) {
+    .content {
+      font-size: 1.5rem;
+      max-width: 320px;
+    }
+    .title-p,
+    .content-p {
+      font-size: 2.3rem;
+    }
+    .content-p::after {
+      width: 153px;
+      left: -1.8rem;
+      top: 4rem;
+    }
+    .title-p::after {
+      width: 165px;
+      left: -1.45rem;
+      top: 4rem;
+    }
+  }
+  @media  screen and (max-width: 350px) {
+    .content {
+      font-size: 1.5rem;
+      max-width: 280px;
+    }
+  }
+  @media  screen and (max-width: 320px) {
+    .content {
+      font-size: 1.5rem;
+      max-width: 230px;
     }
   }
   @media  screen and (max-width: 768px) {
@@ -172,6 +333,18 @@
     .header-a {
       font-size: 1.7rem;
     }
+    .contact-div .title-footer {
+      padding-top: 0px;
+      margin-top: 0px;
+      display: flex;
+      justify-content: center;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+    }
+    .content-contact {
+      max-width: 400px;
+      margin: 4rem auto;
+    }
     #header-nav {
       margin-right: 2rem;
     }
@@ -226,11 +399,29 @@
     .btn {
       width: 170px;
     }
+    .back-top {
+      font-size: 1.6rem;
+    }
+    .back-top i {
+      font-size: 1.8rem;
+      padding-left: 0.5rem;
+    }
+    .final-footer {
+      padding-right: 2rem;
+    }
     .btn-2 {
       width: 180px;
     }
     .btn-2-div a i {
       padding-left: 10px;
+    }
+    .title-footer .footer-1{
+      padding-top: 20px;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      font-weight: 600;
+      letter-spacing: 1.5px;
     }
     .portfolio-title {
       line-height: 4.3rem;
@@ -307,8 +498,52 @@
     #header-nav {
       gap: 2rem;
     }
+    .contact-1, 
+    .contact-2,
+    .contact-3 {
+      font-size: 1.7rem;
+      letter-spacing: 0.8px;
+      padding-left: 7%;
+    }
+    .contact-1 i, 
+    .contact-2 i,
+    .contact-3 i{
+      display: none;
+    }
+  }
+  @media  screen and (max-width: 353px) {
+    .contact-1, 
+    .contact-2,
+    .contact-3 {
+      padding-left: 4%;
+    }
+  }
+  @media  screen and (max-width: 340px) {
+    .contact-1, 
+    .contact-2,
+    .contact-3 {
+      padding-left: 2.2%;
+    }
+    .content-contact {
+      max-width: 280px;
+      margin: 40px auto;
+    }
   }
 
+  @media  screen and (max-width: 300px) {
+    .contact-1, 
+    .contact-2,
+    .contact-3 {
+      padding-left: 0;
+      text-align: center;
+      align-items: center;
+    }
+    .content-contact {
+      max-width: 250px;
+      text-align: center;
+      align-items: center;
+    }
+  }
 @media  screen and (max-width: 362px) {
   .btns {
     flex-direction: column;
@@ -318,6 +553,7 @@
     align-items: center;
     text-align: center;
   }
+
 }
 @media  screen and (max-width: 330px) {
   #projects-example {

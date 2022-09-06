@@ -420,9 +420,6 @@ img:hover ~ .project-name {
 .back-top {
   font-size: 2rem;
 }
-.fa-arrow-up-from-bracket {
-  padding-left: 13px;
-}
 .back-top {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -433,10 +430,14 @@ img:hover ~ .project-name {
 }
 .back-top i {
   font-size: 2.2rem;
+  transition: all .2s;
+  padding-left: 1.3rem;
 }
 .back-top:hover {
-  text-decoration: underline;
   letter-spacing: 1.1px;
+}
+.back-top:hover > i {
+  color: rgb(158, 29, 29);
 }
 .final-footer {
   display: flex;
