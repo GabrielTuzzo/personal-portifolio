@@ -461,6 +461,11 @@
     .btns {
       gap: 12px;
     }
+    .contact-1 i, 
+    .contact-2 i,
+    .contact-3 i{
+      display: none;
+    }
     .btn {
       width: 143px;
       padding: 1.33rem 1.3rem;
@@ -484,11 +489,6 @@
       margin: 0 auto;
       padding-bottom: 3.5rem;
       margin-top: 4rem;
-    }
-    .contact-1 i, 
-    .contact-2 i,
-    .contact-3 i{
-      display: none;
     }
   }
   @media  screen and (max-width: 383px) {
