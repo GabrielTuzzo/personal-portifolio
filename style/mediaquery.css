@@ -485,6 +485,11 @@
       padding-bottom: 3.5rem;
       margin-top: 4rem;
     }
+    .contact-1 i, 
+    .contact-2 i,
+    .contact-3 i{
+      display: none;
+    }
   }
   @media  screen and (max-width: 383px) {
     .portfolio-title {
@@ -504,11 +509,6 @@
       font-size: 1.7rem;
       letter-spacing: 0.8px;
       padding-left: 7%;
-    }
-    .contact-1 i, 
-    .contact-2 i,
-    .contact-3 i{
-      display: none;
     }
   }
   @media  screen and (max-width: 353px) {
