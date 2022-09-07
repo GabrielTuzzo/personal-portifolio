@@ -109,110 +109,6 @@
       padding-right: 3.5rem;
     }
   }
-  @media  screen and (max-width: 720px) {
-    .content {
-      max-width: 600px;
-    }
-    .final-footer {
-      padding-right: 3rem;
-    }
-    .contact-1, 
-    .contact-2,
-    .contact-3 {
-      font-size: 1.8rem;
-      padding-top: 1.3rem;
-      letter-spacing: 1px;
-      padding-left: 5%;
-    }
-  }
-  @media  screen and (max-width: 670px) {
-    .content {
-      max-width: 540px;
-    }
-    .content-1:after {
-      left: -4%;
-    }
-  }
-  @media  screen and (max-width: 620px) {
-    .content {
-      max-width: 480px;
-    }
-    .content-1:after {
-      content: '';
-      position: absolute;
-      height: 103%;
-      width: 6px;
-      border-radius: 2px;
-      background: linear-gradient(180deg, #420000, #550000);
-      left: -4%;
-      top: -1%;
-    }
-  }
-  @media  screen and (max-width: 550px) {
-    .content {
-      font-size: 1.5rem;
-      max-width: 430px;
-    }
-    .content-1:after {
-      content: '';
-      position: absolute;
-      height: 103%;
-      width: 6px;
-      border-radius: 2px;
-      background: linear-gradient(180deg, #420000, #550000);
-      left: -5%;
-      top: -1%;
-    }
-  }
-  @media  screen and (max-width: 500px) {
-    .content {
-      font-size: 1.5rem;
-      max-width: 380px;
-      padding-top: 2rem;
-    }
-    .content-1:after {
-      display: none;
-    }
-    .contact-1, 
-    .contact-2,
-    .contact-3 {
-      font-size: 1.7rem;
-      letter-spacing: 0.8px;
-      padding-left: 6%;
-    }
-  }
-  @media  screen and (max-width: 430px) {
-    .content {
-      font-size: 1.5rem;
-      max-width: 320px;
-    }
-    .title-p,
-    .content-p {
-      font-size: 2.3rem;
-    }
-    .content-p::after {
-      width: 153px;
-      left: -1.8rem;
-      top: 4rem;
-    }
-    .title-p::after {
-      width: 165px;
-      left: -1.45rem;
-      top: 4rem;
-    }
-  }
-  @media  screen and (max-width: 350px) {
-    .content {
-      font-size: 1.5rem;
-      max-width: 280px;
-    }
-  }
-  @media  screen and (max-width: 320px) {
-    .content {
-      font-size: 1.5rem;
-      max-width: 230px;
-    }
-  }
   @media  screen and (max-width: 768px) {
     .img-div h1 {
       font-size: 4rem;
@@ -256,31 +152,67 @@
       padding-top: 10rem;
     }
   }
-  @media  screen and (max-height: 720px) {
-    .img-div {
-      margin-top: 6.5rem;
-    }  
-    .div-img {
-      width: 90%;
-    }
+@media screen and (max-width: 725px) {
+  .img-div {
+    margin-top: 6.5rem;
+  }  
+  .div-img {
+    width: 90%;
+  }
+  .content {
+    max-width: 600px;
+  }
+  .final-footer {
+    padding-right: 3rem;
+  }
+  .contact-1, 
+  .contact-2,
+  .contact-3 {
+    font-size: 1.8rem;
+    padding-top: 1.3rem;
+    letter-spacing: 1px;
+    padding-left: 5%;
+  }
 }
-  @media  screen and (max-width: 713px) {
-    .section-projects {
-      padding-right: 4%;
-      padding-left: 4%;
-    }
-  .project-name {
-      padding-left: 12%;
-      padding-right: 12%;
-    }
-  
+@media  screen and (max-width: 713px) {
+  .section-projects {
+    padding-right: 4%;
+    padding-left: 4%;
   }
-  @media screen and (max-width: 630px) {
-    .title {
-      padding-left: 4%;
-      padding-right: 4%;
-     }
+.project-name {
+    padding-left: 12%;
+    padding-right: 12%;
   }
+}
+@media  screen and (max-width: 670px) {
+  .content {
+    max-width: 540px;
+  }
+  .content-1:after {
+    left: -4%;
+  }
+}
+@media screen and (max-width: 630px) {
+  .title {
+    padding-left: 4%;
+    padding-right: 4%;
+   }
+}
+@media  screen and (max-width: 620px) {
+  .content {
+    max-width: 480px;
+  }
+  .content-1:after {
+    content: '';
+    position: absolute;
+    height: 103%;
+    width: 6px;
+    border-radius: 2px;
+    background: linear-gradient(180deg, #420000, #550000);
+    left: -4%;
+    top: -1%;
+  }
+}
   @media  screen and (max-width: 600px) {
     .img-div h1 {
       font-size: 3.4rem;
@@ -317,9 +249,40 @@
       padding: 1.2rem 1.7rem;
     }
   }
+  @media  screen and (max-width: 550px) {
+    .content {
+      font-size: 1.5rem;
+      max-width: 430px;
+    }
+    .content-1:after {
+      content: '';
+      position: absolute;
+      height: 103%;
+      width: 6px;
+      border-radius: 2px;
+      background: linear-gradient(180deg, #420000, #550000);
+      left: -5%;
+      top: -1%;
+    }
+  }
   @media  screen and (max-width: 500px) {
     .img-div h1 {
       font-size: 3rem;
+    }
+    .content {
+      font-size: 1.5rem;
+      max-width: 380px;
+      padding-top: 2rem;
+    }
+    .content-1:after {
+      display: none;
+    }
+    .contact-1, 
+    .contact-2,
+    .contact-3 {
+      font-size: 1.7rem;
+      letter-spacing: 0.8px;
+      padding-left: 6%;
     }
     .name {
       font-size: 3.5rem;
@@ -371,8 +334,7 @@
     .btns {
       gap: 25px;
     }
-
-  }
+}
   @media  screen and (max-width: 441px) {
     .img-div h1 {
       font-size: 2.5rem;
@@ -452,6 +414,26 @@
       font-size: 15px;
     }
   }
+  @media  screen and (max-width: 430px) {
+    .content {
+      font-size: 1.5rem;
+      max-width: 320px;
+    }
+    .title-p,
+    .content-p {
+      font-size: 2.3rem;
+    }
+    .content-p::after {
+      width: 153px;
+      left: -1.8rem;
+      top: 4rem;
+    }
+    .title-p::after {
+      width: 165px;
+      left: -1.45rem;
+      top: 4rem;
+    }
+  }
   @media  screen and (max-width: 420px) {
     .btns {
       gap: 15px;
@@ -511,11 +493,25 @@
       padding-left: 7%;
     }
   }
+  @media  screen and (max-width: 362px) {
+    .btns {
+      flex-direction: column;
+    }
+    .img-div {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
   @media  screen and (max-width: 353px) {
     .contact-1, 
     .contact-2,
     .contact-3 {
       padding-left: 4%;
+    }
+    .content {
+      font-size: 1.5rem;
+      max-width: 280px;
     }
   }
   @media  screen and (max-width: 340px) {
@@ -529,7 +525,18 @@
       margin: 40px auto;
     }
   }
-
+  @media  screen and (max-width: 330px) {
+    #projects-example {
+      padding: 4rem 5% 4px 5%;
+      max-width: 250px;
+    }
+  }
+  @media  screen and (max-width: 320px) {
+    .content {
+      font-size: 1.5rem;
+      max-width: 230px;
+    }
+  }
   @media  screen and (max-width: 300px) {
     .contact-1, 
     .contact-2,
@@ -544,20 +551,3 @@
       align-items: center;
     }
   }
-@media  screen and (max-width: 362px) {
-  .btns {
-    flex-direction: column;
-  }
-  .img-div {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-}
-@media  screen and (max-width: 330px) {
-  #projects-example {
-    padding: 4rem 5% 4px 5%;
-    max-width: 250px;
-  }
-}
