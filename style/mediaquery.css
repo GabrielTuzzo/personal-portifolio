@@ -4,6 +4,7 @@
       z-index: 2;
     }
   }
+
   @media  screen and (max-width: 1330px) {
     .section-projects {
       padding-right: 1%;
@@ -14,12 +15,14 @@
       padding-right: 10%;
     }
   }
+
   @media  screen and (max-width: 1300px) {
     .div-img {
       padding-left: 0rem;
       z-index: 2;
     }
   }
+
   @media  screen and (max-width: 1170px) {
     .title {
      padding-left: 4%;
@@ -34,6 +37,7 @@
       padding-left: 1rem;
     }
   }
+
   @media  screen and (max-width: 1060px) {
     .section-projects {
       padding-right: 2%;
@@ -73,6 +77,7 @@
       top: 4.4rem;
     }
   }
+
   @media  screen and (max-width: 940px) {
     .img-div {
       flex-direction: column;
@@ -92,12 +97,14 @@
       padding-right: 4rem;
     }
   }
+
   @media  screen and (max-width: 830px) {
     .content {
       font-size: 1.6rem;
       max-width: 700px;
     }
   }
+
   @media  screen and (max-width: 780px) {
     .content {
       max-width: 650px;
@@ -109,6 +116,7 @@
       padding-right: 3.5rem;
     }
   }
+
   @media  screen and (max-width: 768px) {
     .img-div h1 {
       font-size: 4rem;
@@ -136,6 +144,7 @@
       line-height: 4.7rem;
     }
   }
+
   @media  screen and (max-width: 750px) {
     .project-2 .project-name {
       padding-left: 10%;
@@ -146,19 +155,22 @@
       padding-right: 5%;
     }
   }
+
   @media  screen and (max-height: 740px) and (max-width: 540px){
     .img-div {
       flex-direction: column;
       padding-top: 5rem;
     }
   }
+
   @media  screen and (max-height: 740px) and (min-width: 530px) and (max-width: 540px){
     .img-div {
       flex-direction: column;
       padding-top: 3rem;
     }
   }
-@media screen and (max-width: 725px) {
+
+  @media screen and (max-width: 725px) {
   .img-div {
     margin-top: 6.5rem;
   }  
@@ -178,40 +190,45 @@
     padding-top: 1.3rem;
     letter-spacing: 1px;
     padding-left: 5%;
+    }
   }
-}
-@media  screen and (max-width: 713px) {
+
+  @media  screen and (max-width: 713px) {
   .section-projects {
     padding-right: 4%;
     padding-left: 4%;
   }
-.project-name {
+  .project-name {
     padding-left: 12%;
     padding-right: 12%;
+    }
   }
-}
-@media  screen and (max-width: 670px) {
+
+  @media  screen and (max-width: 670px) {
   .content {
     max-width: 540px;
   }
   .content-1:after {
     left: -4%;
+    }
   }
-}
-@media screen and (max-width: 630px) {
+
+  @media screen and (max-width: 630px) {
   .title {
     padding-left: 4%;
     padding-right: 4%;
-   }
-}
-@media  screen and (max-width: 620px) {
-  .content {
+    }
+  }
+
+  @media  screen and (max-width: 620px) {
+    .content {
     max-width: 480px;
-  }
-  .content-1:after {
+    }
+    .content-1:after {
     display: none;
+    }
   }
-}
+
   @media  screen and (max-width: 600px) {
     .img-div h1 {
       font-size: 3.4rem;
@@ -248,12 +265,14 @@
       padding: 1.2rem 1.7rem;
     }
   }
+
   @media  screen and (max-width: 550px) {
     .content {
       font-size: 1.5rem;
       max-width: 430px;
     }
   }
+
   @media  screen and (max-width: 500px) {
     .img-div h1 {
       font-size: 3rem;
@@ -320,14 +339,16 @@
     .btns {
       gap: 25px;
     }
-}
-@media  screen and (max-width: 550px) {
-  .img-div {
+  }
+
+  @media  screen and (max-width: 550px) {
+    .img-div {
     justify-content:flex-start;
     align-items: center;
     height: 93vh;
-}
-}
+    }
+  }
+
   @media  screen and (max-width: 441px) {
     .img-div h1 {
       font-size: 2.5rem;
@@ -407,6 +428,7 @@
       font-size: 15px;
     }
   }
+  
   @media  screen and (max-width: 430px) {
     .content {
       font-size: 1.5rem;
@@ -427,11 +449,13 @@
       top: 4rem;
     }
   }
+  
   @media  screen and (max-width: 420px) {
     .btns {
       gap: 15px;
     }
   }
+  
   @media  screen and (max-width: 410px) {
     .btns {
       gap: 12px;
@@ -466,6 +490,7 @@
       margin-top: 4rem;
     }
   }
+  
   @media  screen and (max-width: 383px) {
     .portfolio-title {
       line-height: 3.5rem;
@@ -486,6 +511,7 @@
       padding-left: 7%;
     }
   }
+  
   @media  screen and (max-width: 362px) {
     .btns {
       flex-direction: column;
@@ -505,6 +531,7 @@
       max-width: 280px;
     }
   }
+  
   @media  screen and (max-width: 340px) {
     .contact-1, 
     .contact-2,
@@ -516,18 +543,21 @@
       margin: 40px auto;
     }
   }
+  
   @media  screen and (max-width: 330px) {
     #projects-example {
       padding: 4rem 5% 4px 5%;
       max-width: 250px;
     }
   }
+  
   @media  screen and (max-width: 320px) {
     .content {
       font-size: 1.5rem;
       max-width: 230px;
     }
   }
+  
   @media  screen and (max-width: 300px) {
     .contact-1, 
     .contact-2,
