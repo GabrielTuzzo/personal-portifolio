@@ -27,22 +27,23 @@
             <div class="subtitle-2">A webdesigner specializing at the construction of a web pages and more</div>
             <div class="btns">
             <div class="btn-div">
-              <a href="#conatct-section" class="btn">Contact me<i class="fa-solid fa-envelope"></i></a>
+              <a href="#conatct-section" class="btn" data-aos="fade-up">Contact me<i class="fa-solid fa-envelope" data-aos="fade-right"></i></a>
             </div>
             <div class="btn-2-div">
-              <a href="#projects-example" class="btn-2">See more about<i class="fa-solid fa-circle-down"></i></a>
+              <a href="#projects-example" class="btn-2" data-aos="fade-up">See more about<i class="fa-solid fa-circle-down" data-aos="fade-right"></i></a>
             </div>
             </div>
           </div>
           <div class="div-img">
-            <img src="./imgs/main-banner.png" alt="ilustration designer" class="img-responsive">
+            <img src="./imgs/main-banner.png" alt="ilustration designer" class="img-responsive" data-aos="fade-down">
           </div>
         </div>
     </main>
     <div class="projects">
     <section>
         <h1 id="projects-example">Here are some of my projects</h1>
-        <div class="section-projects">
+        
+        <div class="section-projects" data-aos="fade-down">
           
           <div class="project-1">
           <a href="https://gabrieltuzzo.github.io/responsive-dashboard-with-darkmode-for-different-displays/" target="_blank" class="project project-title">
@@ -150,7 +151,7 @@
     
     <div class="bibliography-section">
       <div class="title-footer">
-        <p class="title-p">Who am I?</p>
+        <p class="title-p" data-aos="fade-right">Who am I?</p>
       </div>
       <div class="content">
         <div class="content-1">
@@ -165,7 +166,7 @@
       </div>
       <div class="contact-div">
       <div class="title-footer">
-        <p class="content-p">Contact:</p>
+        <p class="content-p" data-aos="fade-right">Contact:</p>
       </div>
       <div class="content-contact" id="conatct-section">
         <p class="contact-1"><span class="bold-title">Email:</span> gabrielTuzzo@hotmail.com<i class="fas fa-light fa-envelope"></i></p>
@@ -180,6 +181,12 @@
     <div class="final-footer">
       <a href="#body" class="back-top">Back to top<i class="fa-solid fa-arrow-up-from-bracket"></i></a>
     </div>
-
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1300
+      });
+    </script>
 </body>
 </html>
