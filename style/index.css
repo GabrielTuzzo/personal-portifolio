@@ -244,8 +244,9 @@ img:hover ~ .project-name .code {
   color: #a6b10c;
 }
 .project-name:hover > .code {
-  padding: 6px;
+  padding: 8px;
   color: #a6b10c;
+  
 }
 img:hover ~ .project-name {
   color: rgb(255, 255, 255);
