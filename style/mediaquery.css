@@ -79,8 +79,8 @@
     }
     .certification-p::after {
       width: 230px;
-      left: -1.25rem;
-      top: 5rem;
+      left: -2.65rem;
+      top: 4.4rem;
     }
   }
 
@@ -453,6 +453,11 @@
     .title-p::after {
       width: 165px;
       left: -1.45rem;
+      top: 4rem;
+    }
+    .certification-p::after {
+      width: 210px;
+      left: -2.3rem;
       top: 4rem;
     }
   }
