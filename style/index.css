@@ -323,7 +323,8 @@ img:hover ~ .project-name {
   background: #c7c7c7;
 }
 .title-p,
-.content-p {
+.content-p,
+.certification-p {
   font-size: 3rem;
   position: relative;
 }
@@ -445,14 +446,22 @@ img:hover ~ .project-name {
   justify-content: flex-end;
   padding-right: 5rem;
 }
-.img-certification-div {
-  padding-top: 20px;
-}
 .img-certification-div img {
   width: 100%;
   max-width: 50%;
+  margin: 50px auto;
 }
-
+.certification-p::after {
+  content: '';
+  position: absolute;
+  width: 230px;
+  height: 7px;
+  border-radius: 2px;
+  background-color: #a6b10c;
+  left: -1.25rem;
+  top: 5rem;
+  background: linear-gradient(180deg, #420000, #550000);
+}
 @keyframes typing {
   100% {
     left: 100%;
