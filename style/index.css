@@ -445,7 +445,13 @@ img:hover ~ .project-name {
   justify-content: flex-end;
   padding-right: 5rem;
 }
-
+.img-certification-div {
+  padding-top: 20px;
+}
+.img-certification-div img {
+  width: 100%;
+  max-width: 50%;
+}
 
 @keyframes typing {
   100% {
