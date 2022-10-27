@@ -1,7 +1,20 @@
+  @media screen and (max-width: 1560px) {
+    .img-certification-div img {
+      width: 100%;
+      max-width: 60%;
+      margin: 50px auto;
+    }
+  }
+  
   @media  screen and (max-width: 1420px) {
     .div-img {
       padding-left: 5rem;
       z-index: 2;
+    }
+    .img-certification-div img {
+      width: 100%;
+      max-width: 70%;
+      margin: 50px auto;
     }
   }
   
