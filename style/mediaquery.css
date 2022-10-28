@@ -375,6 +375,9 @@
     .name {
       font-size: 3rem;
     }
+    .img-certification-div img {
+      width: 80%;
+    }
     .subtitle-1 {
       font-size: 1.65rem;
     }
@@ -513,6 +516,9 @@
       margin: 0 auto;
       padding-bottom: 3.5rem;
       margin-top: 4rem;
+    }
+    .img-certification-div img {
+      width: 100%;
     }
   }
   

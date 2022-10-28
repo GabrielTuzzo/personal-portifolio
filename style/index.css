@@ -266,7 +266,7 @@ img:hover ~ .project-name {
   width: 100%;
   margin-bottom: 20px;
   left: 0;
-  animation: typing 4.5s forwards;
+  animation: typing 5s forwards;
   background: #141414;
   z-index: 0;
 }
