@@ -270,6 +270,7 @@ img:hover ~ .project-name {
   background: #141414;
   z-index: 0;
 }
+
 .btns {
   display: flex;
   gap: 30px;
@@ -458,6 +459,10 @@ img:hover ~ .project-name {
   left: -1.25rem;
   top: 5rem;
   background: linear-gradient(180deg, #420000, #550000);
+}
+.project-9 .project-name {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 @keyframes typing {
   100% {
