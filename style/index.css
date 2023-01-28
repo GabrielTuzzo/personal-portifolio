@@ -464,6 +464,23 @@ img:hover ~ .project-name {
   padding-left: 5%;
   padding-right: 5%;
 }
+.certification-gap {
+  color: #13293d;
+}
+.certification-comment {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+.text-certification a{
+  text-decoration: none;
+}
+.text-certification a:hover{
+  text-decoration: underline;
+}
+.comment-1 {
+  padding-bottom: 3.5rem;
+}
 @keyframes typing {
   100% {
     left: 100%;
