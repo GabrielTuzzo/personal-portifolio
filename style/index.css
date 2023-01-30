@@ -471,6 +471,11 @@ img:hover ~ .project-name {
   display: flex;
   justify-content: center;
   font-size: 2rem;
+  text-align: center;
+  padding: 0 2%;
+}
+.text-certification {
+  text-align: center;
 }
 .text-certification a{
   text-decoration: none;

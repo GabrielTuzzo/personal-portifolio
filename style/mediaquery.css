@@ -221,6 +221,9 @@
     padding-left: 12%;
     padding-right: 12%;
     }
+    .certification-comment {
+      font-size: 1.7rem;
+    }
   }
 
   @media  screen and (max-width: 670px) {
@@ -284,7 +287,11 @@
       padding: 1.2rem 1.7rem;
     }
   }
-
+  @media screen and (max-width: 580px) {
+    .certification-comment {
+      font-size: 1.4rem;
+    }
+  }
   @media  screen and (max-width: 550px) {
     .content {
       font-size: 1.5rem;
@@ -335,6 +342,7 @@
     #header-nav {
       margin-right: 2rem;
     }
+    
     .btn-div a,
     .btn-2-div a {
       font-size: 1.5rem;
@@ -357,6 +365,22 @@
     }
     .btns {
       gap: 25px;
+    }
+    .certification-comment {
+      display: flex;
+      text-align: center;
+      padding: 0 2%;
+      overflow-x: hidden;
+    
+    }
+    .text-certification {
+      text-align: center;
+    }
+    .comment-2,
+    .comment-1 {
+      margin-bottom: 2rem;
+      margin-right: 1rem;
+      display: block;
     }
   }
 
