@@ -140,6 +140,9 @@
     .img-div h1 {
       font-size: 4rem;
     }
+    .text-certification a{
+      color: rgb(82, 42, 141);
+    }
     .name {
       font-size: 4.5rem;
     }
