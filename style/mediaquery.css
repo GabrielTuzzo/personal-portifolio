@@ -5,6 +5,26 @@
       margin: 50px auto;
     }
   }
+  @media screen and (max-width: 1500px) {
+    .div-img::after {
+      content: '';
+      position: absolute;
+      background-color: #b1250c;
+      height: 15px;
+      width: 200px;
+      left: 75%;
+    }
+    .div-img::before {
+      content: '';
+      position: absolute;
+      background-color: #b1250c;
+      height: 15px;
+      width: 199px;
+      left: 90%;
+      transform: rotate(90deg);
+      top: 81.6%;
+    }
+  }
   
   @media  screen and (max-width: 1420px) {
     .div-img {
@@ -15,6 +35,24 @@
       width: 100%;
       max-width: 70%;
       margin: 50px auto;
+    }
+    .div-img::after {
+      content: '';
+      position: absolute;
+      background-color: #b1250c;
+      height: 15px;
+      width: 200px;
+      left: 70%;
+    }
+    .div-img::before {
+      content: '';
+      position: absolute;
+      background-color: #b1250c;
+      height: 15px;
+      width: 199px;
+      left: 87%;
+      transform: rotate(90deg);
+      top: 81.6%;
     }
   }
   
@@ -34,11 +72,50 @@
       padding-left: 0rem;
       z-index: 2;
     }
+    .div-img::after {
+      content: '';
+      position: absolute;
+      background-color: #b1250c;
+      height: 15px;
+      width: 200px;
+      left: 65%;
+    }
+    .div-img::before {
+      content: '';
+      position: absolute;
+      background-color: #b1250c;
+      height: 15px;
+      width: 199px;
+      left: 85%;
+      transform: rotate(90deg);
+      top: 81.6%;
+    }
+  }
+  @media  screen and (max-width: 1210px) {
+    .div-img::after {
+      content: '';
+      position: absolute;
+      background-color: #b1250c;
+      height: 15px;
+      width: 180px;
+      left: 62%;
+      bottom: 4%;
+    }
+    .div-img::before {
+      content: '';
+      position: absolute;
+      background-color: #b1250c;
+      height: 15px;
+      width: 171px;
+      left: 82%;
+      transform: rotate(90deg);
+      top: 77.5%;
+    }
   }
 
   @media  screen and (max-width: 1170px) {
     .title {
-     padding-left: 4%;
+     padding-left: 3%;
     }
     .portfolio-title {
       line-height: 6rem;
@@ -49,6 +126,12 @@
       transition: all .2s;
       padding-left: 1rem;
     }
+    .div-img::after {
+      display: none;
+     }
+     .div-img::before {
+       display: none;
+     }
   }
 
   @media  screen and (max-width: 1060px) {
