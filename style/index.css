@@ -196,6 +196,10 @@ img {
 .project-name:hover {
   letter-spacing: 0.2px;
 }
+.project-12 .project-name{
+  padding-right: 1%;
+  padding-left: 1%;
+}
 .project-name {
   color: rgb(224, 224, 224);
   text-align: center;
@@ -482,6 +486,14 @@ img:hover ~ .project-name {
 .project-9 .project-name {
   padding-left: 5%;
   padding-right: 5%;
+}
+.project-10 .project-name {
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+.project-12 .project-name {
+  padding-top: 27.5px;
+  padding-bottom: 27.5px;
 }
 .certification-gap {
   color: #13293d;

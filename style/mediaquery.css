@@ -62,8 +62,8 @@
       padding-left: 1%;
     }
     .project-name {
-      padding-left: 10%;
-      padding-right: 10%;
+      padding-left: 16%;
+      padding-right: 16%;
     }
   }
 
@@ -147,6 +147,12 @@
       padding-left: 20%;
       padding-right: 20%;
     }
+    .project-3 .project-name {
+      padding-top: 26.1px;
+      padding-bottom: 26.1px;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
     .back-top {
       font-size: 1.8rem;
     }
@@ -177,6 +183,12 @@
       width: 230px;
       left: -2.65rem;
       top: 4.4rem;
+    }
+    .project-5 .project-name {
+      padding-top: 29px;
+      padding-bottom: 29px;
+      padding-left: 5%;
+      padding-right: 5%;
     }
   }
 
@@ -309,6 +321,21 @@
     }
     .certification-comment {
       font-size: 1.7rem;
+    }
+    .project-1 .project-name,
+    .project-2 .project-name,
+    .project-3 .project-name,
+    .project-4 .project-name,
+    .project-5 .project-name,
+    .project-6 .project-name,
+    .project-7 .project-name,
+    .project-8 .project-name,
+    .project-9 .project-name,
+    .project-10 .project-name,
+    .project-11 .project-name,
+    .project-12 .project-name {
+      padding-top: 20px;
+      padding-bottom: 20px;
     }
   }
 
