@@ -472,6 +472,7 @@ img:hover ~ .project-name {
   width: 100%;
   max-width: 50%;
   margin: 50px auto;
+  border-radius: 3px;
 }
 .certification-p::after {
   content: '';
