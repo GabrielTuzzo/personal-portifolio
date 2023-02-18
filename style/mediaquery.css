@@ -148,10 +148,12 @@
       padding-right: 20%;
     }
     .project-3 .project-name {
-      padding-top: 26.1px;
-      padding-bottom: 26.1px;
       padding-left: 5%;
       padding-right: 5%;
+    }
+    .project-6 .project-name{
+      padding-top: 3%;
+      padding-bottom: 3%;
     }
     .back-top {
       font-size: 1.8rem;
@@ -211,7 +213,13 @@
       padding-right: 4rem;
     }
   }
+@media screen and (max-width: 905px) {
 
+  .project-6 .project-name{
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+}
   @media  screen and (max-width: 830px) {
     .content {
       font-size: 1.6rem;
