@@ -291,7 +291,7 @@ img:hover ~ .project-name {
 .div-img::after {
   content: '';
   position: absolute;
-  background-color: #b1250c;
+  background-color: rgb(168, 27, 27);
   height: 15px;
   width: 200px;
   left: 80%;
@@ -299,7 +299,7 @@ img:hover ~ .project-name {
 .div-img::before {
   content: '';
   position: absolute;
-  background-color: #b1250c;
+  background-color: rgb(168, 27, 27);
   height: 15px;
   width: 199px;
   left: 96%;
