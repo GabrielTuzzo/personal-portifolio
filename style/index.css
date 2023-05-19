@@ -488,9 +488,13 @@ img:hover ~ .project-name {
   padding-left: 5%;
   padding-right: 5%;
 }
+
 .project-10 .project-name {
   padding-top: 27px;
   padding-bottom: 27px;
+  padding-left: 5%;
+  padding-right: 5%;
+
 }
 .project-12 .project-name {
   padding-top: 27.5px;
@@ -523,4 +527,16 @@ img:hover ~ .project-name {
     left: 100%;
     margin: 0 -35px 0 20px;
   }
+}
+.project-11 .project-name{
+  padding-left: 0%;
+  padding-right: 0%;
+}
+.project-5 .project-name {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.project-2 .project-name {
+  padding-left: 5%;
+  padding-right: 5%;
 }
