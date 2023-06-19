@@ -120,8 +120,8 @@ img {
   max-width: 600px;
 }
 .project-4 .project-name {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 .projects h1 {
   border-bottom: 1px solid #dadada;
@@ -492,13 +492,13 @@ img:hover ~ .project-name {
 .project-10 .project-name {
   padding-top: 27px;
   padding-bottom: 27px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.project-3 .project-name {
   padding-left: 5%;
   padding-right: 5%;
-
-}
-.project-12 .project-name {
-  padding-top: 27.5px;
-  padding-bottom: 27.5px;
 }
 .certification-gap {
   color: #13293d;
@@ -537,6 +537,6 @@ img:hover ~ .project-name {
   padding-right: 2%;
 }
 .project-2 .project-name {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 3.2%;
+  padding-right: 3.2%;
 }

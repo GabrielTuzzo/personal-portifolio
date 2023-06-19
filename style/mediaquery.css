@@ -144,12 +144,12 @@
       padding-right: 13%;
     }
     .project-2 .project-name {
-      padding-left: 20%;
-      padding-right: 20%;
+      padding-left: 2%;
+      padding-right: 2%;
     }
     .project-3 .project-name {
-      padding-left: 5%;
-      padding-right: 5%;
+      padding-left: 10%;
+      padding-right: 10%;
     }
     .project-6 .project-name{
       padding-top: 3%;
@@ -187,10 +187,13 @@
       top: 4.4rem;
     }
     .project-5 .project-name {
-      padding-top: 29px;
-      padding-bottom: 29px;
-      padding-left: 5%;
-      padding-right: 5%;
+      padding-left: 4%;
+      padding-right: 4%;
+    }
+    .project-10 .project-name {
+      padding: 1.150rem 0;
+      padding-left: 2%;
+      padding-right: 2%;
     }
   }
 
@@ -214,16 +217,33 @@
     }
   }
 @media screen and (max-width: 905px) {
-
   .project-6 .project-name{
     padding-top: 3%;
     padding-bottom: 3%;
+  }
+  .project-10 .project-name {
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+@media screen and (max-width: 923px) {
+  .project-11 .project-name {
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
   @media  screen and (max-width: 830px) {
     .content {
       font-size: 1.6rem;
       max-width: 700px;
+    }
+    .project-4 .project-name {
+      padding-left: 3%;
+      padding-right: 3%;
     }
   }
 
@@ -269,12 +289,14 @@
       line-height: 4.7rem;
     }
   }
-
-  @media  screen and (max-width: 750px) {
-    .project-2 .project-name {
-      padding-left: 10%;
-      padding-right: 10%;
+  @media  screen and (max-width: 753px) {
+    .project-7 .project-name {
+      padding-top: 27px;
+      padding-bottom: 27px;
     }
+  }
+  @media  screen and (max-width: 750px) {
+    
     .project-1 .project-name {
       padding-left: 5%;
       padding-right: 5%;
