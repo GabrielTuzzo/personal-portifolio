@@ -274,7 +274,6 @@ img:hover ~ .project-name {
   background: #141414;
   z-index: 0;
 }
-
 .btns {
   display: flex;
   gap: 30px;
@@ -488,14 +487,12 @@ img:hover ~ .project-name {
   padding-left: 5%;
   padding-right: 5%;
 }
-
 .project-10 .project-name {
   padding-top: 27px;
   padding-bottom: 27px;
   padding-left: 2%;
   padding-right: 2%;
 }
-
 .project-3 .project-name {
   padding-left: 5%;
   padding-right: 5%;
@@ -522,12 +519,6 @@ img:hover ~ .project-name {
 .comment-1 {
   padding-bottom: 3.5rem;
 }
-@keyframes typing {
-  100% {
-    left: 100%;
-    margin: 0 -35px 0 20px;
-  }
-}
 .project-11 .project-name{
   padding-left: 0%;
   padding-right: 0%;
@@ -539,4 +530,10 @@ img:hover ~ .project-name {
 .project-2 .project-name {
   padding-left: 3.2%;
   padding-right: 3.2%;
+}
+@keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -35px 0 20px;
+  }
 }
