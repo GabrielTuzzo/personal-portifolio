@@ -242,7 +242,7 @@
   }
 }
 
-@media  screen and (max-width: 830px) {
+  @media  screen and (max-width: 830px) {
     .content {
       font-size: 1.6rem;
       max-width: 700px;
@@ -275,7 +275,8 @@
       margin-bottom: 70px;
     }
   }
-@media  screen and (max-width: 768px) {
+  
+  @media  screen and (max-width: 768px) {
     .img-div h1 {
       font-size: 4rem;
     }
@@ -304,35 +305,35 @@
     .portfolio-title {
       line-height: 4.7rem;
     }
-}
+  }
 
   @media  screen and (max-width: 753px) {
     .project-7 .project-name {
       padding-top: 27px;
       padding-bottom: 27px;
     }
-}
+  }
 
   @media  screen and (max-width: 750px) {
     .project-1 .project-name {
       padding-left: 5%;
       padding-right: 5%;
     }
-}
+  }
 
   @media  screen and (max-height: 740px) and (max-width: 540px){
     .img-div {
       flex-direction: column;
       padding-top: 5rem;
     }
-}
+  }
 
   @media  screen and (max-height: 740px) and (min-width: 530px) and (max-width: 540px){
     .img-div {
       flex-direction: column;
       padding-top: 3rem;
     }
-}
+  }
   
   @media screen and (max-width: 725px) {
     .img-div {
@@ -355,13 +356,14 @@
       letter-spacing: 1px;
       padding-left: 5%;
     }
-} 
+  } 
+  
   @media  screen and (max-width: 713px) {
-  .section-projects {
+    .section-projects {
     padding-right: 4%;
     padding-left: 4%;
-  }
-  .project-name {
+    }
+    .project-name {
     padding-left: 12%;
     padding-right: 12%;
     }
