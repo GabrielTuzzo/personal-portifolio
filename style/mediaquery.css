@@ -239,6 +239,14 @@
       padding-left: 3%;
       padding-right: 3%;
     }
+    .last-project {
+      max-width: none;
+      width: 50%;
+      margin: 0 auto;
+      max-height: 285px;
+      margin-bottom: 100px;
+      margin-top: 25px;
+    }
   }
 @media  screen and (max-width: 780px) {
     .content {
@@ -249,6 +257,9 @@
     }
     .final-footer {
       padding-right: 3.5rem;
+    }
+    .last-project {
+      margin-bottom: 70px;
     }
   }
 @media  screen and (max-width: 768px) {
@@ -355,10 +366,18 @@
       padding-top: 20px;
       padding-bottom: 20px;
     }
+    .last-project {
+      width: 92%;
+      margin-bottom: 220px;
+    }
   }
   @media  screen and (max-width: 670px) {
   .content {
     max-width: 540px;
+  }
+  .last-project {
+    width: 92%;
+    margin-bottom: 220px;
   }
   .content-1:after {
     left: -4%;
@@ -368,6 +387,10 @@
   .title {
     padding-left: 4%;
     padding-right: 4%;
+    }
+    .last-project {
+      width: 92%;
+      margin-bottom: 190px;
     }
   }
   @media  screen and (max-width: 620px) {
@@ -418,11 +441,25 @@
     .certification-comment {
       font-size: 1.4rem;
     }
+    .last-project {
+      width: 92%;
+      margin-bottom: 170px;
+    }
   }
   @media  screen and (max-width: 550px) {
     .content {
       font-size: 1.5rem;
       max-width: 430px;
+    }
+    .last-project {
+      width: 92%;
+      margin-bottom: 140px;
+    }
+  }
+  @media  screen and (max-width: 520px) {
+    .last-project {
+      width: 92%;
+      margin-bottom: 115px;
     }
   }
   @media  screen and (max-width: 500px) {
@@ -515,9 +552,19 @@
     height: 93vh;
     }
   }
+  @media  screen and (max-width: 470px) {
+    .last-project {
+      width: 92%;
+      margin-bottom: 85px;
+    }
+  }
   @media  screen and (max-width: 441px) {
     .img-div h1 {
       font-size: 2.5rem;
+    }
+    .last-project {
+      width: 92%;
+      margin-bottom: 70px;
     }
     .name {
       font-size: 3rem;
@@ -627,6 +674,14 @@
     .btns {
       gap: 15px;
     }
+    .last-project .project-name{
+      padding-right: 6%;
+      padding-left: 6%;
+    }
+    .last-project {
+      width: 92%;
+      margin-bottom: 95px;
+    }
   }
   @media  screen and (max-width: 410px) {
     .btns {
@@ -658,7 +713,6 @@
       gap: 3.5rem;
       max-width: 1300px;
       margin: 0 auto;
-      padding-bottom: 3.5rem;
       margin-top: 4rem;
     }
     .img-certification-div img {
@@ -683,6 +737,10 @@
       font-size: 1.7rem;
       letter-spacing: 0.8px;
       padding-left: 7%;
+    }
+    .last-project {
+      width: 92%;
+      margin-bottom: 10px;
     }
   }
   @media  screen and (max-width: 362px) {
